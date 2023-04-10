@@ -1,0 +1,17 @@
+
+.gridBox{
+    font-weight: bold !important;
+    height: 600px !important;
+    width: 100%;
+}
+.parent{
+    width: 80%;
+    height: 100%;
+}
+.tittle{
+    text-align: center;
+    color: rgb(88, 86, 86);
+    margin: 0;
+    font-size: xxx-large;
+    padding-bottom: 15px;
+}

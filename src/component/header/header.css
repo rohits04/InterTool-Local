@@ -1,0 +1,40 @@
+.heading
+{
+  margin: 0;
+  text-align: center;
+  color: #3d5076;
+}
+/* .header
+{
+  display: flex;
+} */
+
+.page1
+{
+  display: flex;
+  justify-content: center;
+}
+
+.mainheader
+{
+  background-color: rgb(230, 226, 226);
+  border: 1px solid rgb(206, 202, 202);
+  /* font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;  */
+  height: 75px;
+  display: flex;
+   align-items: center;
+  /* justify-content: space-around; */
+  /* width: 100%; */
+}
+.logo
+{
+  height: 70px;
+}
+.header{
+  /* height: 70px; */
+  display: flex;
+}
+.date{
+  margin-left: 5px !important;
+}

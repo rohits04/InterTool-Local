@@ -1,0 +1,49 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.LogForm{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.useText{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+}
+.useText:hover{
+    color: #1273b4;
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    /* border: 1px solid #1273b4; */
+    box-shadow:0px 0px 10px 5px #e0e2e4;
+    padding: 0 100px;
+}
+.loginParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.inputText{
+    width: 35ch;
+}
+.loginHeading{
+    color: #3d5076;
+}
+.error{
+    color: #cd2424;
+    margin-left: 10px;
+    font-size: smaller;
+    font-weight: 495;
+}

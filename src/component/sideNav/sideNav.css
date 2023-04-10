@@ -1,0 +1,40 @@
+
+.Navparent{
+    width: 250px;
+    height: 100%;
+}.sideNav{
+    display: flex;
+    flex-direction: column;    
+    width: 200px;
+    background-color: #e6e2e2;
+}
+.linkParent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    height: 10%;
+}
+.Navheading{
+    margin: 0;
+    font-size: x-large;
+    color: #3d5076;
+}
+.link{
+    text-decoration: none;
+    color: #3d5076;;
+    font-weight: bold;
+    font-size: larger;
+}
+.link:hover{
+    background-color: #3d5076;
+    color: #e6e2e2;
+    cursor: pointer;
+    padding: 5px;
+}
+.navSym{
+    display: none;
+}
+.navSym:hover{
+    display: inline;
+}
